@@ -14,6 +14,16 @@
 <td>Name</td>
 <td><form:input path="name"/></td>
 </tr>
+
+<tr>
+<td>Department</td>
+<td><form:select path="dept">
+<form:option value="CSE" label="CSE"/>
+<form:option value="ECE" label="ECE"/>
+<form:option value="EEE" label="EEE"/>
+<form:option value="IT" label="IT"/>
+</form:select></td>
+</tr>
 <tr>
 <td><input type="submit" value="Submit"></td>
 </tr>
