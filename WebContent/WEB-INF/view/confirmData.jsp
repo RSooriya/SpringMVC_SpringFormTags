@@ -8,6 +8,7 @@
 </head>
 <body>
 <h2>Congratulation ${student.name } Your information has been saved successfully</h2>
-<p>Department: ${student.dept }
+<p>Department: ${student.dept }</p>
+<p>Gender: ${student.gender }
 </body>
 </html>

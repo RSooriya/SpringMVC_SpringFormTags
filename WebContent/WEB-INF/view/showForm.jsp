@@ -14,7 +14,6 @@
 <td>Name</td>
 <td><form:input path="name"/></td>
 </tr>
-
 <tr>
 <td>Department</td>
 <td><form:select path="dept">
@@ -23,6 +22,23 @@
 <form:option value="EEE" label="EEE"/>
 <form:option value="IT" label="IT"/>
 </form:select></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+<!--  creating nested rows -->
+   <table>
+   <tr>
+   <td><form:radiobutton path="gender" label="Male" value="Male"/></td>
+   </tr>
+   <tr>
+   <td>
+   <form:radiobutton path="gender" label="Female" value="Female"/>
+   </td>
+   </tr>
+   </table>
+</td>
+
 </tr>
 <tr>
 <td><input type="submit" value="Submit"></td>
