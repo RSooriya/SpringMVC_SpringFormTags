@@ -41,6 +41,22 @@
 
 </tr>
 <tr>
+<td>Skills</td>
+<td>
+<table>
+<tr>
+<td><form:checkbox path="skills" value="SpringMVC" label="Spring MVC"/>
+</tr>
+<tr>
+<td><form:checkbox path="skills" value="CoreJava" label="Core java"/></td>
+</tr>
+<tr>
+<td><form:checkbox path="skills" value="Oracle" label="Oracle"/></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
 <td><input type="submit" value="Submit"></td>
 </tr>
 </table>

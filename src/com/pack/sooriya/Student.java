@@ -5,8 +5,16 @@ public class Student {
 	private String name;
     private String dept;
     private String gender;
-    
-    
+    private String[] skills;
+
+	public String[] getSkills() {
+		return skills;
+	}
+
+	public void setSkills(String[] skills) {
+		this.skills = skills;
+	}
+
 	public String getGender() {
 		return gender;
 	}
