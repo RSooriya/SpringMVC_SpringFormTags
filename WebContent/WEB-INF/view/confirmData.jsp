@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Welcome to home page</h2>
-<a href="showForm">Click here for Form</a>
+<h2>Congratulation ${student.name } Your information has been saved successfully</h2>
 </body>
 </html>
