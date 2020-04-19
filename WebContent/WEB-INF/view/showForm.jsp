@@ -6,16 +6,25 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<style>
+table
+{
+width:50%;
+border-spacing:5px;
+text-align:left;
+}
+</style>
 </head>
 <body>
+<h1>Application Form</h1>
 <form:form action="processForm" modelAttribute="student">
 <table>
 <tr>
-<td>Name</td>
+<th>Name</th>
 <td><form:input path="name"/></td>
 </tr>
 <tr>
-<td>Department</td>
+<th>Department</th>
 <td><form:select path="dept">
 <form:option value="CSE" label="CSE"/>
 <form:option value="ECE" label="ECE"/>
@@ -24,7 +33,7 @@
 </form:select></td>
 </tr>
 <tr>
-<td>Gender</td>
+<th>Gender</th>
 <td>
 <!--  creating nested rows -->
    <table>
@@ -41,7 +50,7 @@
 
 </tr>
 <tr>
-<td>Skills</td>
+<th>Skills</th>
 <td>
 <table>
 <tr>

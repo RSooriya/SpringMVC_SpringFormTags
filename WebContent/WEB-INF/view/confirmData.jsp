@@ -6,15 +6,36 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<style>
+table
+{
+width:20%;	
+}
+</style>
 </head>
 <body>
 <h2>Congratulation ${student.name } Your information has been saved successfully</h2>
-<p>Department: ${student.dept }</p>
-<p>Gender: ${student.gender }</p>
-<p>Skills: <br>
+<table>
+<tr>
+<td>Department</td>
+<td>${student.dept }</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>${student.gender }
+</tr>
+<tr>
+<td>Skills</td>
+<td>
+<table>
 <c:forEach var="temp" items="${student.skills }">
-${temp } <br>
+<tr>
+<td>${temp}</td>
+</tr>
 </c:forEach>
-</p>
+</table>
+</td>
+</tr>
+</table>
 </body>
 </html>
